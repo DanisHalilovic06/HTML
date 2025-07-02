@@ -1,0 +1,40 @@
+
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+.effetto-titolo {
+    font-size: 80px; /* Dimensione del testo del titolo */
+    text-align: center; /* Allineamento del testo */
+    color: #ffffff; /* Colore del testo */
+    padding: 20px; /* Spazio intorno al testo del titolo */
+    animation: titolo-animazione 1s ease-out; /* Animazione del titolo */
+  }
+  
+  @keyframes titolo-animazione {
+    from {
+      transform: scale(0); /* Inizio dell'animazione */
+    }
+    to {
+      transform: scale(1); /* Fine dell'animazione */
+    }
+  }
+
+  #logo {
+    width: 100%;
+    height: 100%;
+  }
+  .logo-class {
+    max-width:1500px ;
+    height: 100%;
+    padding: 200px !important;
+  }
+  

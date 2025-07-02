@@ -1,0 +1,24 @@
+
+#h1 {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 200px;
+}
+.effetto-titolo {
+    font-size: 80px; /* Dimensione del testo del titolo */
+    text-align: center; /* Allineamento del testo */
+    color:rgb(255, 255, 255); /* Colore del testo */
+    padding: 20px; /* Spazio intorno al testo del titolo */
+    animation: titolo-animazione 1s ease-out; /* Animazione del titolo */
+  }
+  
+  @keyframes titolo-animazione {
+    from {
+      transform: scale(0); /* Inizio dell'animazione */
+    }
+    to {
+      transform: scale(1); /* Fine dell'animazione */
+    }
+  }
+  
+ 

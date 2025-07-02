@@ -1,0 +1,41 @@
+
+
+  #h1 {
+    text-align: center;
+  }
+
+  #p1 {
+    font-size: 80px; /* Dimensione del testo del titolo */
+    text-align: center; /* Allineamento del testo */
+    color:rgb(255, 253, 253); /* Colore del testo */
+    padding: 20px; /* Spazio intorno al testo del titolo */
+    animation: titolo-animazione 1s ease-out; /* Animazione del titolo */
+  }
+  @keyframes titolo-animazione {
+    from {
+      transform: scale(0); /* Inizio dell'animazione */
+    }
+    to {
+      transform: scale(1); /* Fine dell'animazione */
+    }
+  }
+
+
+  figure {
+    position: relative;
+    text-align: center;
+    padding-top: 0%;
+    width: 100%;
+    height: auto;
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    padding: 500PX;
+    padding-left: 750px;
+    
+  }
